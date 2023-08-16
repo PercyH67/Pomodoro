@@ -1,0 +1,92 @@
+
+body{
+    background-color: rgb(67, 67, 67);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+h1{
+    color: crimson;
+}
+#app{
+    background-color: rgb(146, 220, 230);
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    border-radius: 5px;
+    padding: 5px;
+}
+#time{  
+    font-size: 60px;
+    margin: 20px;
+}
+#taskName{
+    font-size: 30px;
+    padding: 10px;
+}
+.tasks-container{
+    padding: 0 20px;
+}
+.minut{
+    text-align: left;
+    margin-bottom: 10px;
+}
+.minut input{
+    padding: 5px;
+    width: 100px;
+    border-radius: 5px;
+    border: gray solid 2px;
+    font-size: 20px;
+}
+.form{
+    text-align: left;
+}
+#form{
+    display: flex;
+    justify-content: space-between;
+}
+#itTask{
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    width: 60%;
+    font-size: 15px;
+}
+
+#add{
+    background-color: blue;
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    color: #fff;
+}
+
+#tasks {
+    background-color: rgb(208, 242, 242);
+    text-align: left;
+    margin: 20px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.completed button{
+    background-color: blue;
+    border-radius: 3px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+span{
+    font-size: 30px;
+}
+.done{
+    color: rgb(0, 190, 19);
+    
+}
+.title{
+    margin-top: 10px;
+    color: blue;
+}

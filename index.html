@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Pomodoro</h1>
+        <div id="time">
+            <div id="value"></div>
+            <div id="taskName"></div>
+        </div>
+        <div class="tasks-container">
+            <div class="minut">
+                <input type="number" id="minutesInput" placeholder="Minutos" required>
+            </div>
+            <div class="form">
+                <form action="" id="form">
+                    <input type="text" id="itTask" placeholder="Ingresar tarea" required>
+                    <button type="submit" id="add" value="Agregar tarea">Agregar tarea</button>
+                </form>
+            </div>
+        </div>
+        <span>Listado de tareas:</span>
+        <div id="tasks"></div>
+        <audio id="timerSound">
+            <source src="auth.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>  
+              
+    </div>
+    <script src="/main.js"></script>
+    
+</body>
+</html>
